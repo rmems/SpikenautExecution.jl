@@ -21,7 +21,7 @@ LIF neurons → SNN signal → ZMQ bridge → Kelly sizing → dydx v4 → Order
 
 ## Provenance
 
-Extracted from Eagle-Lander, a private neuromorphic GPU supervisor (closed-source).
+Extracted from Eagle-Lander, the author's own private neuromorphic GPU supervisor repository (closed-source).
 The execution pipeline received live
 ZMQ signals from a Rust SNN nervous system and placed orders on dYdX v4 perpetuals
 in production before being open-sourced as a standalone Julia package.
